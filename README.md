@@ -1,7 +1,13 @@
+# Install
+
+install latest LTS version of node \
+npm i -g create-react-app@17.0.1 \
+npm install bootstrap@4.5.3
+
 # Useful Links
 
-https://getbootstrap.com/  - bootstrap
-https://create-react-app.dev/   -react (for web site)
+https://getbootstrap.com/ - bootstrap
+https://create-react-app.dev/ -react (for web site)
 Maybe look at https://reactrouter.com/web/guides/quick-start for multiple pages
 
 # Getting Started with Create React App
