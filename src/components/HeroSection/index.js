@@ -9,7 +9,7 @@ const HeroSection = () => {
                 <VideoBg autoPlay loop muted src={Video} type='Video/mp4'/>
             </HeroBg>
             <HeroContent>
-                <HeroH1>Forthtek</HeroH1>
+                <HeroH1>ForthTek</HeroH1>
                 <HeroP>where ideas and innovation meet</HeroP>
             </HeroContent>
         </HeroContainer>

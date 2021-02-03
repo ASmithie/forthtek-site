@@ -10,7 +10,7 @@ const Sidebar = ({isOpen, toggle}) => {
             <SidebarWrapper>
                 <SidebarMenu>
                     <SidebarLink to='Pictohunt' onClick={toggle}>
-                        Pictohunt
+                        PictoHunt
                     </SidebarLink>
                     <SidebarLink to='AboutUs' onClick={toggle}>
                         About us
