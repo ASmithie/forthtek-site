@@ -12,7 +12,7 @@ const Navbar = ({toggle}) => {
     <>
         <Nav>
             <NavbarContainer>
-                <NavLogo to ='/' onClick={toggleHome}>Forthtek</NavLogo>
+                <NavLogo to ='/' onClick={toggleHome}>ForthTek</NavLogo>
                 <MobileIcon onClick={toggle}>
                     <FaBars />
                 </MobileIcon>
