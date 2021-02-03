@@ -33,10 +33,10 @@ const Footer = () => {
                 <SocialMedia>
                     <SocialMediaWrap>
                         <SocialLogo to ='/' onClick={toggleHome}>
-                            Forthtek
+                            ForthTek
                         </SocialLogo>
                         <WebsiteRights>
-                            Forthtek ©   {new Date().getFullYear() }
+                            ForthTek ©   {new Date().getFullYear() }
                             <pre></pre>All rights reserved.
                         </WebsiteRights>
                         <SocialIcons>
