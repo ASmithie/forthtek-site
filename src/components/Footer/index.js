@@ -3,6 +3,7 @@ import {animateScroll as scroll} from 'react-scroll'
 import{FooterContainer, FooterWrap, FooterLinksContainer, FooterLinksWrapper, FooterLinkItems, FooterLinkTitle, FooterLink } from './FooterElements'
 import{SocialMedia, SocialMediaWrap, SocialLogo, WebsiteRights, SocialIconLink, SocialIcons} from './FooterElements'
 import{FaFacebook, FaTwitter, FaInstagram} from 'react-icons/fa'
+import {ExternalLink} from 'react-external-link'
 
 const toggleHome = () => {
     scroll.scrollToTop();
@@ -15,18 +16,14 @@ const Footer = () => {
                 <FooterLinksContainer>
                     <FooterLinksWrapper>
                         <FooterLinkItems>
-                            <FooterLinkTitle>About us</FooterLinkTitle>
-                                <FooterLink to='home'>Investors</FooterLink>
-                                <FooterLink to='home'>Terms of Service</FooterLink>
-                                <FooterLink to='home'>Our Clients</FooterLink>
-                            <FooterLinkTitle>Our Products</FooterLinkTitle>
-                                <FooterLink to='home'>Customer Service</FooterLink>
-                                <FooterLink to='home'>Product Support</FooterLink>
-                                <FooterLink to='home'>FAQs</FooterLink>
+                            <FooterLinkTitle>Links</FooterLinkTitle>
+                                <ExternalLink href="https://github.com/ForthTek/PictoHunt"><FooterLink>Download for Android</FooterLink></ExternalLink>
+                                <ExternalLink href="https://github.com/ForthTek/PictoHunt"><FooterLink>Download for IOS</FooterLink></ExternalLink>
+                                <ExternalLink href="https://github.com/ForthTek/PictoHunt"><FooterLink>Our Github</FooterLink></ExternalLink>
                             <FooterLinkTitle>Social Media</FooterLinkTitle>
-                                <FooterLink to='home'>Instagram</FooterLink>
-                                <FooterLink to='home'>Twitter</FooterLink>
-                                <FooterLink to='home'>Facebook</FooterLink>
+                                <ExternalLink href="https://www.facebook.com/"><FooterLink>Facebook</FooterLink></ExternalLink>
+                                <ExternalLink href="https://www.twitter.com"><FooterLink>Twitter</FooterLink></ExternalLink>
+                                <ExternalLink href="https://www.instagram.com"><FooterLink>Instagram</FooterLink></ExternalLink>
                         </FooterLinkItems>
                     </FooterLinksWrapper>
                 </FooterLinksContainer>
@@ -40,15 +37,15 @@ const Footer = () => {
                             <pre></pre>All rights reserved.
                         </WebsiteRights>
                         <SocialIcons>
-                            <SocialIconLink href="/" target='_blank'
+                            <SocialIconLink href="https://www.facebook.com" target='_blank'
                             aria-label="Facebook">
                                 <FaFacebook/>
                             </SocialIconLink>
-                            <SocialIconLink href="/" target='_blank'
+                            <SocialIconLink href="https://www.twitter.com" target='_blank'
                             aria-label="Twitter">
                                 <FaTwitter/>
                             </SocialIconLink>
-                            <SocialIconLink href="/" target='_blank'
+                            <SocialIconLink href="https://www.instagram.com" target='_blank'
                             aria-label="Instagram">
                                 <FaInstagram/>
                             </SocialIconLink>
