@@ -17,8 +17,8 @@ const Footer = () => {
                     <FooterLinksWrapper>
                         <FooterLinkItems>
                             <FooterLinkTitle>Links</FooterLinkTitle>
-                                <ExternalLink href="https://github.com/ForthTek/PictoHunt/releases/download/0.1/forthtek-app-ec3a491c85b643aeb54a2464c14d7822-signed.apk"><FooterLink>Download for Android</FooterLink></ExternalLink>
-                                <ExternalLink href="https://github.com/ForthTek/PictoHunt/releases/download/0.1/forthtek-app-ec3a491c85b643aeb54a2464c14d7822-signed.apk"><FooterLink>Download for IOS</FooterLink></ExternalLink>
+                                <ExternalLink href="https://github.com/ForthTek/PictoHunt/releases"><FooterLink>Download for Android</FooterLink></ExternalLink>
+                                <ExternalLink href="https://github.com/ForthTek/PictoHunt/releases"><FooterLink>Download for IOS</FooterLink></ExternalLink>
                                 <ExternalLink href="https://github.com/ForthTek/PictoHunt"><FooterLink>Our Github</FooterLink></ExternalLink>
                             </FooterLinkItems>
                     </FooterLinksWrapper>
