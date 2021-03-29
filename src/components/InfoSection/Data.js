@@ -52,7 +52,7 @@ export const homeObjFour = {
     lightTextDesc: true,
     topLine: 'Want to reach out to us?',
     headline: 'Contact us',
-    description: 'Email us over at Forthtek1@gmail.com for all of your enquiries',
+    description: 'Found a bug? Email us over at Forthtek1@gmail.com for all of your enquiries',
     imgStart: true,
     img: require('../images/svg-3.svg').default,
     alt:'contact',
