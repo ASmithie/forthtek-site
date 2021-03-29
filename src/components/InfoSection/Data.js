@@ -1,4 +1,5 @@
 import { FaTired } from 'react-icons/fa';
+import {ExternalLink} from 'react-external-link'
 
 export const homeObjOne = {
     id: 'AboutUs',
@@ -36,7 +37,7 @@ export const homeObjThree = {
     lightTextDesc: true,
     topLine: '',
     headline: 'Our App',
-    description: 'Upload your best photos and have them rated by other users. Take part in weekly and daily challenges, or even challenge a user, to see who can take the relevant photo first. You can also check out the map, and view submissions from all around the globe.',
+    description: 'Upload your best photos and have them rated by other users. Take part in weekly and daily challenges, or even challenge a user, to see who can post a photo to a channel first. You can also check out the map, and view submissions from all around the globe. Interested in checking out our app? Use our download or GitHub links at the bottom of the page.',
     imgStart: true,
     img: require('../images/jpg-1.jpg').default,
     alt:'contact',

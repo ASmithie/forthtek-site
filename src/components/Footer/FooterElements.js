@@ -5,7 +5,7 @@ export const FooterContainer = styled.footer`
     background-color: #101522
 `
 export const FooterWrap = styled.div`
-    padding: 48px 24px;
+    padding: 24px 24px;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -69,7 +69,7 @@ export const SocialMediaWrap = styled.div`
     justify-content:space-between;
     align-items: center;
     max-width: 1100px;
-    margin: 40px auto 0 auto;
+    margin:40px auto 0 auto;
 
     @media screen and (max-width: 820px) {
         flex-direction:column;
